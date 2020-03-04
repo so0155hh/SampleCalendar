@@ -13,6 +13,8 @@
 		9B85E67D23FB5F5C0014524C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B85E67B23FB5F5C0014524C /* Main.storyboard */; };
 		9B85E67F23FB5F5D0014524C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B85E67E23FB5F5D0014524C /* Assets.xcassets */; };
 		9B85E68223FB5F5D0014524C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B85E68023FB5F5D0014524C /* LaunchScreen.storyboard */; };
+		9B85E68A23FB631A0014524C /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B85E68923FB631A0014524C /* DateCollectionViewCell.swift */; };
+		9B85E68C23FB64900014524C /* CalendarVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B85E68B23FB64900014524C /* CalendarVars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9B85E67E23FB5F5D0014524C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B85E68123FB5F5D0014524C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B85E68323FB5F5D0014524C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B85E68923FB631A0014524C /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		9B85E68B23FB64900014524C /* CalendarVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9B85E67523FB5F5C0014524C /* AppDelegate.swift */,
 				9B85E67723FB5F5C0014524C /* SceneDelegate.swift */,
 				9B85E67923FB5F5C0014524C /* ViewController.swift */,
+				9B85E68923FB631A0014524C /* DateCollectionViewCell.swift */,
+				9B85E68B23FB64900014524C /* CalendarVars.swift */,
 				9B85E67B23FB5F5C0014524C /* Main.storyboard */,
 				9B85E67E23FB5F5D0014524C /* Assets.xcassets */,
 				9B85E68023FB5F5D0014524C /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B85E68A23FB631A0014524C /* DateCollectionViewCell.swift in Sources */,
 				9B85E67A23FB5F5C0014524C /* ViewController.swift in Sources */,
 				9B85E67623FB5F5C0014524C /* AppDelegate.swift in Sources */,
+				9B85E68C23FB64900014524C /* CalendarVars.swift in Sources */,
 				9B85E67823FB5F5C0014524C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
